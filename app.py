@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import matplotlib.pyplot as plt
 
-ést.set_page_config(layout="wide")
+st.set_page_config(layout="wide")
 
 def generate_hemicycle(n_deputes, n_rows, initial_radius, radius_increment, point_size):
     radii = [initial_radius + i * radius_increment for i in range(n_rows)]
