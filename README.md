@@ -48,6 +48,7 @@
         <li><a href="#built-with">Built With 🛠️</a></li>
       </ul>
     </li>
+    <li><a href="#usage">Usage</a></li>
   </ol>
 </details>
 
@@ -75,6 +76,46 @@ This project provides an easy way to visualize parliamentary seating in the form
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!----------------------------------------------------------------------->
 
+## Usage
+
+To select different parameters, you can use the demo application here:
+
+<div align="center">
+  <a href="https://github.com/othneildrew/Best-README-Template">
+    <img src="assets/gif.gif" width="80%">
+  </a>
+</div>
+
+Then, choose the parameters `NUM_ROWS`, `INITIAL_RADIUS`, `RADIUS_INCREMENT`, and `POINT_SIZE` in the `chart.ipynb` file.
+
+You also need to provide the distribution of the hemicycle in the following format:
+
+```python
+parties = [
+    Party('Party 1', '#A11770', 142),
+    Party('Party 2', '#D9669E', 13),
+    Party('Party 3', '#FE9F10', 257),
+    Party('Party 4', '#0690C5', 73),
+    Party('Party 5', '#8D6026', 72),
+    Party('Unassigned', 'unassigned', 20),
+]
+```
+where the first element of Party() is the party name, the second element is the party's hexadecimal color code (if 'unassigned', it will be a white circle with a grey border), and the third element is the number of deputies in the party.
+
+<!----------------------------------------------------------------------->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!----------------------------------------------------------------------->
+
+## Contact
+
+LE GOURRIEREC Titouan - [titouanlegourrierec@icloud.com](mailto:titouanlegourrierec@icloud.com)
+
+Repository Link: [https://github.com/titouanlegourrierec/Hemicycle-Chart](https://github.com/titouanlegourrierec/Hemicycle-Chart)
+
+
+<!----------------------------------------------------------------------->
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!----------------------------------------------------------------------->
 
 [Python-badge]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [Python-url]: https://www.python.org
