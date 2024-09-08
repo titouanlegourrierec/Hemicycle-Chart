@@ -78,11 +78,11 @@ This project provides an easy way to visualize parliamentary seating in the form
 
 ## Usage
 
-To select different parameters, you can use the demo application here:
+To select different parameters, you can use the demo application [here](https://hemicycle-chart.streamlit.app):
 
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="assets/gif.gif" width="80%">
+  <a href="https://hemicycle-chart.streamlit.app">
+    <img src="assets/gif.gif" width="80%" >
   </a>
 </div>
 
