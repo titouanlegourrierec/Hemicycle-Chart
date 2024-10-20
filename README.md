@@ -63,6 +63,7 @@
 
 This project provides an easy way to visualize parliamentary seating in the form of a hemicycle, illustrating the distribution of deputies by party. It simplifies the process of generating accurate and clear representations of legislative assemblies, making it useful for data analysis, presentations, and political studies. The tool is flexible and customizable to fit different parliamentary structures and compositions.
 
+For more information, you can read the article I published in the Python in Plain English journal on Medium: [How to Create a Parliamentary Hemicycle Data Visualization in Python](https://medium.com/python-in-plain-english/how-to-create-a-parliamentary-hemicycle-data-visualization-in-python-331dd4306409).
 <!----------------------------------------------------------------------->
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 <!----------------------------------------------------------------------->
