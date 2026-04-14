@@ -1,0 +1,11 @@
+[project]
+name = "hemicycle-chart"
+version = "0.1.0"
+description = "Tool for visualizing parliamentary seating with party distribution in a hemicycle."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.8",
+    "numpy>=2.2.6",
+    "streamlit>=1.56.0",
+]
